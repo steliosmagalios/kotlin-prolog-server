@@ -17,6 +17,9 @@ java {
 
 repositories {
     mavenCentral()
+    flatDir {
+        dirs("libs")
+    }
 }
 
 dependencies {
@@ -25,6 +28,8 @@ dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-reflect'
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    implementation files("libs/eclipse.jar")
 }
 
 tasks.withType(KotlinCompile) {
