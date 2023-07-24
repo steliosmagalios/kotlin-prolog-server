@@ -1,4 +1,4 @@
-package me.steliosmagalios.prologserver.services
+package me.example.prologserver.services
 
 import org.springframework.stereotype.Service
 import com.parctechnologies.eclipse.EclipseEngine;

@@ -1,6 +1,6 @@
-package me.steliosmagalios.prologserver.controllers
+package me.example.prologserver.controllers
 
-import me.steliosmagalios.prologserver.services.PrologService
+import me.example.prologserver.services.PrologService
 import org.springframework.http.MediaType
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam

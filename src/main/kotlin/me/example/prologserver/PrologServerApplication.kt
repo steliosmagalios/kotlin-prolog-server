@@ -1,4 +1,4 @@
-package me.steliosmagalios.prologserver
+package me.example.prologserver
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

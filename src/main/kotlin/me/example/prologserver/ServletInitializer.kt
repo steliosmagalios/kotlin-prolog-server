@@ -1,4 +1,4 @@
-package me.steliosmagalios.prologserver
+package me.example.prologserver
 
 import org.springframework.boot.builder.SpringApplicationBuilder
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
